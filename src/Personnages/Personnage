@@ -5,6 +5,10 @@ import ComportementBenOuais.ComportementArme;
 public abstract class Personnage {
     private ComportementArme arme;
 
+    public Personnage(ComportementArme a) {
+        setArme(a);
+    }
+
     public void combattre() {
         this.arme.utiliserArme();
     }

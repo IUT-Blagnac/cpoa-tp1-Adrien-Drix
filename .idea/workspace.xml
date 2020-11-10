@@ -23,20 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a73fea08-51e5-4a8d-ac2c-e3daebabd777" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ComportementBenOuais/ComportementArc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ComportementBenOuais/ComportementArme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ComportementBenOuais/ComportementEpee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ComportementBenOuais/ComportementPoignard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Personnages/Personnage" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Personnages/Type/Chevalier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Personnages/Type/Reine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Personnages/Type/Roi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Personnages/Type/Troll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/README.adoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/TD1-frappez.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/images/TD1-frappez.plantuml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/aventure.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/images/aventure.plantuml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/td1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/td1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Personnages/Personnage" beforeDir="false" afterPath="$PROJECT_DIR$/src/Personnages/Personnage" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +83,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604999136990</updated>
-      <workItem from="1604999138046" duration="2317000" />
+      <workItem from="1604999138046" duration="2700000" />
     </task>
     <servers />
   </component>
