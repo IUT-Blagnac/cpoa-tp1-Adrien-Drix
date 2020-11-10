@@ -1,7 +1,6 @@
-package Personnages.Type;
+package Personnages;
 
 import ComportementBenOuais.ComportementArme;
-import Personnages.Personnage;
 
 public class Roi extends Personnage {
     public Roi(ComportementArme a) {

@@ -23,7 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a73fea08-51e5-4a8d-ac2c-e3daebabd777" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Personnages/Personnage" beforeDir="false" afterPath="$PROJECT_DIR$/src/Personnages/Personnage" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Personnages/Type/Chevalier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Personnages/Chevalier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Personnages/Type/Reine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Personnages/Reine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Personnages/Type/Roi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Personnages/Roi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Personnages/Type/Troll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Personnages/Troll.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,17 +68,31 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration name="Menu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Menu" />
+      <module name="td1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Menu" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -83,7 +102,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604999136990</updated>
-      <workItem from="1604999138046" duration="2700000" />
+      <workItem from="1604999138046" duration="4536000" />
+      <workItem from="1605003730666" duration="406000" />
     </task>
     <servers />
   </component>
@@ -100,8 +120,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605003514754">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605003514754" />
     <state x="714" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605000123453">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
