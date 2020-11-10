@@ -3,7 +3,7 @@
 ' definitions
 ' -----------
 
-package "ComportementArme" {
+package "ComportementBenOuais.ComportementArme" {
 interface ComportementArmeDeTir
 interface ComportementArmeDeuxMains
 interface ComportementArmeUneMain
@@ -34,7 +34,7 @@ package "Base" {
 class Berserker
 class Chevalier
 class Humain
-abstract Personnage
+abstract Personnages.Personnage
 class Ranger
 class Rodeur
 class Troll
@@ -56,44 +56,44 @@ ComportementArmeUneMain : void UtiliserArme()
 ComportementArmeDeuxMains : void UtiliserArme()
 
 ' Troll:
-Personnage <|-- Troll
+Personnages.Personnage <|-- Troll
 
 ' Bouclier:
 ComportementArmeUneMain <|.. Bouclier
 Bouclier : void UtiliserArme()
 Bouclier : String toString()
 
-' Personnage:
-Personnage --> "1" ComportementArmeDeuxMains
-Personnage --> "1" ComportementArmeDeTir
-Personnage --> "1" ComportementArmeUneMain
-Personnage : void CombattreAuCac()
-Personnage : void CombattreADistance()
-Personnage : void ChangerMain()
-Personnage : void SetArme(ComportementArmeDeuxMains)
-Personnage : void SetArmeDroite(ComportementArmeUneMain)
-Personnage : void SetArmeGauche(ComportementArmeUneMain)
-Personnage : void SetArmeDistance(ComportementArmeDeTir)
-Personnage : ComportementArmeDeuxMains GetArmeDeuxMains()
-Personnage : ComportementArmeUneMain GetArmeMainGauche()
-Personnage : ComportementArmeUneMain GetArmeMainDroite()
-Personnage : ComportementArmeDeTir GetArmeDistance()
-Personnage : String toString()
+' Personnages.Personnage:
+Personnages.Personnage --> "1" ComportementArmeDeuxMains
+Personnages.Personnage --> "1" ComportementArmeDeTir
+Personnages.Personnage --> "1" ComportementArmeUneMain
+Personnages.Personnage : void CombattreAuCac()
+Personnages.Personnage : void CombattreADistance()
+Personnages.Personnage : void ChangerMain()
+Personnages.Personnage : void SetArme(ComportementArmeDeuxMains)
+Personnages.Personnage : void SetArmeDroite(ComportementArmeUneMain)
+Personnages.Personnage : void SetArmeGauche(ComportementArmeUneMain)
+Personnages.Personnage : void SetArmeDistance(ComportementArmeDeTir)
+Personnages.Personnage : ComportementArmeDeuxMains GetArmeDeuxMains()
+Personnages.Personnage : ComportementArmeUneMain GetArmeMainGauche()
+Personnages.Personnage : ComportementArmeUneMain GetArmeMainDroite()
+Personnages.Personnage : ComportementArmeDeTir GetArmeDistance()
+Personnages.Personnage : String toString()
 
 ' Orc:
-Personnage <|- Orc
+Personnages.Personnage <|- Orc
 
 ' Humain:
-Personnage <|-- Humain
+Personnages.Personnage <|-- Humain
 
 ' ComportementArmeDeTir:
 ComportementArmeDeTir : void UtiliserArme()
 
 ' Voleur:
-Personnage <|-- Voleur
+Personnages.Personnage <|-- Voleur
 
 ' Chevalier:
-Personnage <|-- Chevalier
+Personnages.Personnage <|-- Chevalier
 
 ' Arbalete:
 ComportementArmeDeTir <|.. Arbalete
@@ -101,20 +101,20 @@ Arbalete : void UtiliserArme()
 Arbalete : String toString()
 
 ' Rodeur:
-Personnage <|-- Rodeur
+Personnages.Personnage <|-- Rodeur
 
 ' Berserker:
-Personnage <|-- Berserker
+Personnages.Personnage <|-- Berserker
 
 ' Ogre:
-Personnage <|- Ogre
+Personnages.Personnage <|- Ogre
 
 ' Ranger:
-Personnage <|-- Ranger
+Personnages.Personnage <|-- Ranger
 
 ' Menu:
 Menu : Scanner sc
-Menu ..> Personnage
+Menu ..> Personnages.Personnage
 Menu : void Menu()
 Menu : void etape0()
 Menu : void etape1()
@@ -126,7 +126,7 @@ Menu : void main(String)
 Menu : void LancementDuJeu()
 
 ' Bandit:
-Personnage <|- Bandit
+Personnages.Personnage <|- Bandit
 
 ' Epee:
 ComportementArmeUneMain <|.. Epee
@@ -139,7 +139,7 @@ Claymore : void UtiliserArme()
 Claymore : String toString()
 
 ' Squelette:
-Personnage <|- Squelette
+Personnages.Personnage <|- Squelette
 
 ' Dague:
 ComportementArmeUneMain <|.. Dague

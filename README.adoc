@@ -79,11 +79,11 @@ endif::[]
 {group} #::
 
 [%interactive]
-- [x] {Enseignants}
+- [ ] {Enseignants}
 - [ ] 1
 - [ ] 2
 - [ ] 3
-- [ ] 4
+- [x] 4
 - [ ] Innopolis
 
 //------------------------------------ 

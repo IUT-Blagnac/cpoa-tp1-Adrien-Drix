@@ -3,14 +3,53 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a73fea08-51e5-4a8d-ac2c-e3daebabd777" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ComportementBenOuais/ComportementArc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComportementBenOuais/ComportementArme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComportementBenOuais/ComportementEpee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComportementBenOuais/ComportementPoignard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Personnages/Personnage" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Personnages/Type/Chevalier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Personnages/Type/Reine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Personnages/Type/Roi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Personnages/Type/Troll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/README.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/TD1-frappez.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/images/TD1-frappez.plantuml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/aventure.plantuml" beforeDir="false" afterPath="$PROJECT_DIR$/images/aventure.plantuml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/td1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/td1.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,6 +71,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -54,11 +96,40 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604999136990</updated>
-      <workItem from="1604999138046" duration="405000" />
+      <workItem from="1604999138046" duration="2317000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="714" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605000123453">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="714" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605000123453" />
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1605001300669">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605001300669" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605001116298">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605001116298" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1605000214825">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605000214825" />
   </component>
 </project>

@@ -10,9 +10,9 @@ hide empty members
 hide empty methods
 
 
-abstract class Personnage {
+abstract class Personnages.Personnage {
 combattre() {this.arme.utiliserArme();}
-setArme(ComportementArme a) {this.arme = a;}
+setArme(ComportementBenOuais.ComportementArme a) {this.arme = a;}
 }
 class Reine {
 combattre() {...}
@@ -20,13 +20,13 @@ combattre() {...}
 class Roi {
 combattre() {...}
 }
-class ComportementPoignard {
+class ComportementBenOuais.ComportementPoignard {
 }
-class ComportementArc {
+class ComportementBenOuais.ComportementArc {
 }
-class ComportementEpee {
+class ComportementBenOuais.ComportementEpee {
 }
-interface ComportementArme{
+interface ComportementBenOuais.ComportementArme{
 {abstract} utiliserArme()
 }
 class Troll {
@@ -35,15 +35,15 @@ combattre() {...}
 class Chevalier {
 combattre() {...}
 }
-Personnage <|-- Roi
-Personnage <|-- Reine
-Personnage <|-- Chevalier
-Personnage <|-- Troll
-Personnage o--> "1" ComportementArme
+Personnages.Personnage <|-- Roi
+Personnages.Personnage <|-- Reine
+Personnages.Personnage <|-- Chevalier
+Personnages.Personnage <|-- Troll
+Personnages.Personnage o--> "1" ComportementBenOuais.ComportementArme
 
-ComportementArme <|.. ComportementEpee
-ComportementArme <|.. ComportementPoignard
-ComportementArme <|.. ComportementArc
+ComportementBenOuais.ComportementArme <|.. ComportementBenOuais.ComportementEpee
+ComportementBenOuais.ComportementArme <|.. ComportementBenOuais.ComportementPoignard
+ComportementBenOuais.ComportementArme <|.. ComportementBenOuais.ComportementArc
 
 
 @enduml
